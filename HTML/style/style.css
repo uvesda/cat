@@ -1,0 +1,62 @@
+:root{
+    --primary-color:white;
+    --text-color:black;
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+    margin: 0;
+    background-color: blanchedalmond;
+    color: var(--text-color);
+}
+
+a{
+    color:blueviolet;
+}
+
+h1,h2,h3{
+    text-align: center;
+    font-family: Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif;
+
+    margin: 0;
+}
+
+p{
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+ul{
+    margin: 0;
+}
+
+section{
+    background-color:bisque;
+    padding: 2rem 4rem 6rem;
+}
+
+footer, header,section {
+    padding: 1rem;
+    border: 2px solid black;
+}
+
+main{
+    position: relative;
+}
+
+.header{
+    color:azure;
+   
+}
+.wrapper{
+    max-width: 1900px;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+}
